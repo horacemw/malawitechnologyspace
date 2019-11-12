@@ -1,0 +1,237 @@
+body{
+  font-size: 1em;
+  line-height: 1.65em;
+  font-family: "open Sans","Helvetica","Arial",Sans-Serif;
+}
+h2{
+  color: green;
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: white;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color:green;
+  border: 0;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: white;
+  text-decoration: none;
+  background-color: green;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: green;
+}
+#promo{
+  text-align: center;
+  padding: 40px;
+  background: url(jumbo.jpeg) no-repeat;
+  background-size: cover;
+}
+#promo .jumbotron{
+  font-weight: bold;
+  line-height: 2;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,193,7,0.50);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+.pict{
+  height: 350px;
+}
+.dro{
+  height: 235px;
+}
+.peji{
+  display: inline-block;
+  size: cover;
+}
+.cont{
+  padding-left: 2rem;
+}
+.letter{
+      background-color: rgba(6,139,155,0.22);
+}
+.imple{
+  margin-bottom: 2rem;
+}
+.rs{
+  margin-top: 2rem;
+}
+}
+.batani{
+  position: absolute;
+  top:62%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 13px 35px;
+}
+.starting{
+  position: relative;
+}
+.iframe-container{
+ position: relative;
+ width: 100%;
+ padding-bottom: 56.25%; 
+ height: 0;
+}
+.iframe-container iframe{
+ position: absolute;
+ top:0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+.line{
+  line-height: 2;
+  background-color: #4BAEA0;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.space{
+  margin-top: 1.5rem;
+}
+
+.tablefile{
+  margin-top: 2rem;
+}
+
+.fa-graduation-cap{
+	color: green;
+}
+.eventa{
+  margin-top: 2rem;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+.red{
+color: #750606;
+font-size: 1.3rem;
+}
+.blue{
+  color: #2c4d96;
+  font-size: 1.3rem;
+}
+.page-link{
+	background-color: green;
+	color: white;
+}
+.page-link:hover {
+  color: green;
+  text-decoration: none;
+  background-color: #000;
+  border-color: white;
+}
+.page-link:focus {
+  z-index: 2;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(62, 241, 7, 0.25);
+}
+.yera{
+  color: white;
+}
+.racha{
+  width: 25rem;
+}
+.vation{
+  background-image: linear-gradient(to right,#50D5B7,#C1FCD3)
+}
+.vationa{
+  background-image: linear-gradient(to right,#07A3B2,#C1FCD3)
+}
+.brid{
+  width: 20rem;
+}
+.number{
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.mapeto{
+  text-align: center;
+  color: white;
+}
+.footer{
+        height: 90px;
+        background-color: green;
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100;
+}
